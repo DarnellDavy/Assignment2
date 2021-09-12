@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* How to write a CSS comment! */
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(241, 241, 212);
+}
+
+header {
+    padding: 50px 45px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+header h1 {
+    font-weight:bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight:lighter;
+    font-size: 1.55vw;
+}
+
+section {
+    padding: 20px 20px;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.my-photo {
+    width: 35%;
+    margin: 0 auto 35px auto;
+    padding-top: 40px;
+}
+
+.section-title {
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 3px solid #fce138;
+}
+
+.project {
+    margin: 20px;
+    
+    font-size: 20px;
+    color: black;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+footer h2 {
+    text-align: center;
+}
